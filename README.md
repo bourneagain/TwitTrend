@@ -1,4 +1,5 @@
-ngTwitterApp
+Twitter Trends 
 ============
 
-[Angularjs, Material Design and Twitter Streams – A Twitter Live Search App](http://thejackalofjavascript.com/twitter-live-search)
+This app is build on top of AngularJS with material design for viewing filtered tweets.
+[TwitTrends ](https://twittrends.herokuapp.com/)
