@@ -1,7 +1,8 @@
 twitterApp = angular.module('twitterApp', ['ngMaterial', 'btford.socket-io'])
   .factory('socket', function(socketFactory) {
     return socketFactory({
-      ioSocket: io.connect('http://localhost:3000')
+      //ioSocket: io.connect('http://localhost:3000')
+      ioSocket: io.connect('/')
     });
   }).controller('AppCtrl', ['$scope', 'socket', function($scope, socket) {
 
