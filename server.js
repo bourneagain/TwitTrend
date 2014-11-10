@@ -74,5 +74,5 @@ io.on('connection', function(socket) {
 
 });
 
-server.listen(3001);
-console.log('Server listening on port 3001');
+server.listen(process.env.PORT || 5000);
+console.log('Server listening 5000');
